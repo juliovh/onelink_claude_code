@@ -1,4 +1,0 @@
-{
-  "installCommand": "yarn install --ignore-engines",
-  "buildCommand": "nuxt build && node -e \"const f='.vercel/output/functions/__nitro.func/.vc-config.json',fs=require('fs'),c=JSON.parse(fs.readFileSync(f));c.runtime='nodejs24.x';fs.writeFileSync(f,JSON.stringify(c,null,2))\""
-}
